@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    position: relative;
+}
+h1::after{
+    content: "";
+    width: 0%;
+    height: 10px;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    left: 0% ;
+    
+}
+h1:hover::after{
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move {
+    0%{
+        width: 0;
+        left: 0;
+    }
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width:0;
+        left: 100%;
+    }
+
+    
+}

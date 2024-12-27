@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgb(231, 231, 175),rgb(167, 216, 167),rgb(198, 164, 101),rgb(195, 82, 82));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(130, 166, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 60px;
+}
+button{
+    padding: 15px 25px;
+    font-weight: 900;
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+}
+button:active{
+    scale: 1.2;
+}

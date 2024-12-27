@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(240, 236, 236, 0.757);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 2px black;
+   
+}
+#nav h6{
+    font-size: 13px;
+    font-weight: 300;
+}
+#phone{
+    height: 600px;  
+    width: 100%;
+    background-image: url(https://www.apple.com/v/iphone-16-pro/c/images/overview/product-stories/design/ANIM/design_hero_endframe__f4saxkdyib2a_xlarge.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#phone h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+#phone h2{
+    color: white;
+    text-align: center;
+}
+#phone h1:hover{
+    color: burlywood;
+    
+}
+#phone h2:hover{
+    color: burlywood;
+}
+#nav h6:hover{
+    color: red;
+}
+#nav i:hover{
+    color: green;
+   
+}
+
+
+

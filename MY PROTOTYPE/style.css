@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(170, 69, 69, 0.147);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    gap: 50px;
+}
+#nav1{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav2{                  
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+   
+}
+#center{
+    position: relative;
+   text-align: center;
+   padding: 50px;
+}
+#center #image-tag{
+    height: 150px;
+    width: 150px;
+    background-color: goldenrod;
+    border-radius: 100%;
+    background-image: url(https://i.pinimg.com/736x/7e/d7/c6/7ed7c6db42ea95a6125e7e964585d8db.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    left: 43%;
+}
+#center h1{
+    position: relative;
+    padding: 30px;
+    letter-spacing: 1;  
+    font-size: 50px;
+    font-weight: 900;
+}
+#center h3{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+}
+#center p{
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#center button{
+    padding: 20px 40px;
+    position: relative;
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   font-size: 20px;
+   font-weight: 300;
+   border: none;
+}
+#center button:hover{
+   background-color: grey;
+}
+#center h3::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    bottom: 0%;
+    left: 0%;
+}
+#center h3:hover::after{
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move {
+    0%{
+        width: 0%;
+        left: 0;
+    }
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0% ;
+        left: 100%;
+    }
+    
+}

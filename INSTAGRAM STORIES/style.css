@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Phone{
+    height: 500px;
+    width: 325px;
+    border-radius: 20px;
+    background-color: white;
+    border: 7px solid black;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+#full{
+    height: 500px;
+    width: 325px;
+    padding: 50px;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+#notch{
+    height: 30px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: rgb(2, 2, 2);
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+#navy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h1{
+    padding: 5px 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#icons{
+    padding:5px 15px;
+    font-size: x-large;
+}
+#stories{
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    
+}
+#story{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin-right:5px;
+}
+#story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box{
+    height: 250px;
+    width: 100%;
+    background-image: url("https://imgs.search.brave.com/pJulsikYgFQBIc5f_QKcaJ9i1rwa1hcO5BYCf3o3-Ls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aW5kaWFmb3J1bXMu/Y29tL21lZGlhLzcy/MHgwLzU3LzQ1NTYt/dmlyYXQta29obGkt/YW51c2hrYS1zaGFy/bWEuanBn");
+    padding: 5px;
+    background-size: cover;
+    object-fit: cover;
+}
+#profile{
+    height: 40px;
+    width: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid red;
+}
+#profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box h1{
+    color: white;
+    font-size: 20px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#love{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#together{
+    font-size: x-large;
+}
+#tag{
+    font-size: x-large;
+}
+#back{
+    height: 5px;
+    width: 50%;
+    background-color: black;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#progress{
+    height: 5px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+#growth{
+    height: 100%;
+    width: 0%;
+    background-color: goldenrod;
+    border-radius: 50px;
+}
+#full h2{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 5px 5px;
+}
